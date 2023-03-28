@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 public class StrategyDetail {
     private String id;
 
-    private Long stratefyId;
+    private Long strategyId;
 
     private String awardId;
 
@@ -25,12 +25,12 @@ public class StrategyDetail {
         this.id = id;
     }
 
-    public Long getStratefyId() {
-        return stratefyId;
+    public Long getStrategyId() {
+        return strategyId;
     }
 
-    public void setStratefyId(Long stratefyId) {
-        this.stratefyId = stratefyId;
+    public void setStrategyId(Long strategyId) {
+        this.strategyId = strategyId;
     }
 
     public String getAwardId() {
